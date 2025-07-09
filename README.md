@@ -1,12 +1,69 @@
-# React + Vite
+# 💼 Harish's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built using **React** and **Tailwind CSS**, showcasing my journey, projects, skills, and final full-stack applications.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with React + Tailwind CSS
+- 🌗 Clean dark-light agnostic design (currently light-themed)
+- 🧠 Projects displayed with live preview and GitHub links
+- 🛠 Skills represented with icons
+- 📱 Fully responsive for all devices
+- 📘 DevLog-style blog page for final project explanation
+- 🧾 Contact page for connection
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS, React Router
+- **Deployment:** Vercel / GitHub Pages
+- **Icons:** Lucide React, Tech logos
+
+---
+
+## 📂 Pages & Routes
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home with Hero, Skills, Featured Projects |
+| `/projects` | All major projects with live/GitHub |
+| `/contact` | Contact form and links |
+| `/blogs` | Blog/DevLogs (includes detailed writeup of Car Rental Project) |
+
+---
+
+## 🔥 Highlight Project
+
+### 🚗 Car Rental Platform – MERN Stack
+
+> A complete full-stack application with user login, owner dashboard, payment integration, and booking system.
+
+- Firebase Auth (Google Login)
+- Razorpay Payment Gateway
+- MongoDB Atlas Backend
+- Owner/Admin Flow
+
+📎 [Live Link](https://carrental-ecommerce.vercel.app)  
+📁 [GitHub Repo](https://github.com/Harish-Kuppusamy/carrental-ecommerce)
+
+---
+
+## 📷 Screenshots
+
+<img src="public/hero.png" alt="Hero Section" width="100%" />
+<img src="public/project.png" alt="Projects Section" width="100%" />
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Harish-Kuppusamy/final-portfolio.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
