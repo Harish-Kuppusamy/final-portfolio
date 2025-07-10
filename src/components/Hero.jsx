@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="min-h-screen bg-gradient-to-br from-white to-blue-50 flex flex-col items-center justify-center px-6 space-y-8">
       {/* Circular Profile Image */}
       <img
-        src="/1000083501.jpg"
+        src="/img.webp"
         alt="Harish profile"
         className="w-40 h-40 md:w-52 md:h-52 object-cover rounded-full shadow-lg "
       />
