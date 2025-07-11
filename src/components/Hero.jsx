@@ -29,7 +29,7 @@ const Hero = () => {
             View Projects <ArrowRight size={20} />
           </Link>
           <a
-            href="/resume.pdf"
+            href="/Harish_FullstackDeveloper-Resume.pdf"
             download
             className="inline-block border border-blue-600 text-blue-600 px-6 py-2 rounded-lg hover:bg-blue-100 transition"
           >
